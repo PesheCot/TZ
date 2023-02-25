@@ -1,0 +1,202 @@
+/*!
+Theme Name: Sob
+Theme URI: 
+Author: Смолин Иван
+Author URI: 
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: sob
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Sob is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic);
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    width: 1200px;
+    margin: 30px;
+}
+.card{
+    display: flex;
+    margin-top: 50px;
+}
+h1 , h4{
+    font-family:  'Source Sans Pro', sans-serif;
+}
+h1{
+    font-size: 48px;
+}
+h4{
+    margin-bottom: 35px;
+    font-size: 24px;
+    margin-left: 10px;;
+}
+.card__sobitie{
+    border: solid 1px #C4C4C4;
+    width: 355px;
+    margin-right: 50px;
+    display: block;
+}
+.card__img{
+    position: relative;
+}
+
+.text__imgCal,
+.text__imgMap{
+	margin-right: 15px;
+}
+
+.img--fonCard{
+    width: 355px;
+    height: 180px;
+}
+.checkbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;;
+}
+span{
+  font-family:  'Source Sans Pro', sans-serif;
+}
+.button{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.one p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #4F4F4F;
+}
+#two {
+	margin-right: 10px;
+}
+.but {
+	border: 1.25px solid #5C626B;
+	border-radius: 6px;
+	background-color: #fff;
+	font-size: 22px;
+	padding: 18px 30px;
+}
+.but:hover{
+	background-color: rgb(148, 136, 136);
+}
+.block_button {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	text-align: right;
+}
+.block_button p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #4F4F4F;
+}
+.block_button_text{
+	display: flex;
+
+}
+
+
+.calendar-wrapper {
+    width: 360px;
+    padding: 2em;
+    border: 1px solid #dcdcff;
+    border-radius: 5px;
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;;
+  }
+  table {
+    clear: both;
+    width: 100%;
+    border: 1px solid #dcdcff;
+    border-radius: 3px;
+    border-collapse: collapse;
+    color: #444;
+  }
+  td {
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #dcdcff;
+    border-top: 1px solid #dcdcff;
+    width: 14.28571429%;
+  }
+  td.not-current {
+    color: #c0c0c0;
+  }
+  td.today {
+    font-weight: 700;
+    color: #28283b;
+    font-size: 1.5em;
+  }
+  thead td {
+    border: none;
+    color: #28283b;
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+  #btnPrev {
+    float: left;
+    margin-bottom: 20px;
+  }
+  #btnPrev:before {
+    content: '\f104';
+    font-family: FontAwesome;
+    padding-right: 4px;
+  }
+  #btnNext {
+    float: right;
+    margin-bottom: 20px;
+  }
+  #btnNext:after {
+    content: '\f105';
+    font-family: FontAwesome;
+    padding-left: 4px;
+  }
+  #btnPrev,
+  #btnNext {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #c0c0c0;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  #btnPrev:hover,
+  #btnNext:hover {
+    color: #28283b;
+    font-weight: bold;
+  }
